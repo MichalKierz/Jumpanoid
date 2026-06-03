@@ -9,7 +9,7 @@ void Game::initVariables(int gamemode, int lvl, int lvs, int scrp1, int scrp2)
     this->pauseCooldown = 0;
     this->gameMode = gamemode;
     this->changeLevel(lvl);
-    this->gameStarted == 0;
+    this->gameStarted = false;
 
     if (this->gameMode > 0)
     {

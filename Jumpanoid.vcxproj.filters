@@ -21,57 +21,57 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Jumpanoid.cpp">
+    <ClCompile Include="src\Jumpanoid.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="GameStates.cpp">
+    <ClCompile Include="src\GameStates.cpp">
       <Filter>Pliki źródłowe</Filter>
     </ClCompile>
-    <ClCompile Include="MainMenu.cpp">
+    <ClCompile Include="src\MainMenu.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="Game.cpp">
+    <ClCompile Include="src\Game.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
+    <ClCompile Include="src\Player.cpp">
       <Filter>Objects</Filter>
     </ClCompile>
-    <ClCompile Include="State.cpp">
+    <ClCompile Include="src\State.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="Ball.cpp">
+    <ClCompile Include="src\Ball.cpp">
       <Filter>Objects</Filter>
     </ClCompile>
-    <ClCompile Include="Brick.cpp">
+    <ClCompile Include="src\Brick.cpp">
       <Filter>Objects</Filter>
     </ClCompile>
-    <ClCompile Include="GameUIBox.cpp">
+    <ClCompile Include="src\GameUIBox.cpp">
       <Filter>Objects</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MainMenu.h">
+    <ClInclude Include="include\MainMenu.h">
       <Filter>Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="Game.h">
+    <ClInclude Include="include\Game.h">
       <Filter>Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="GameStates.h">
+    <ClInclude Include="include\GameStates.h">
       <Filter>Pliki źródłowe</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
+    <ClInclude Include="include\Player.h">
       <Filter>Objects</Filter>
     </ClInclude>
-    <ClInclude Include="State.h">
+    <ClInclude Include="include\State.h">
       <Filter>Scenes</Filter>
     </ClInclude>
-    <ClInclude Include="Ball.h">
+    <ClInclude Include="include\Ball.h">
       <Filter>Objects</Filter>
     </ClInclude>
-    <ClInclude Include="Brick.h">
+    <ClInclude Include="include\Brick.h">
       <Filter>Objects</Filter>
     </ClInclude>
-    <ClInclude Include="GameUIBox.h">
+    <ClInclude Include="include\GameUIBox.h">
       <Filter>Objects</Filter>
     </ClInclude>
   </ItemGroup>

@@ -76,6 +76,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -90,6 +91,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -104,7 +106,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\external\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;$(SolutionDir)\external\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -121,7 +123,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)\external\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\include;$(SolutionDir)\external\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -134,25 +136,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Ball.cpp" />
-    <ClCompile Include="Brick.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="GameStates.cpp" />
-    <ClCompile Include="GameUIBox.cpp" />
-    <ClCompile Include="Jumpanoid.cpp" />
-    <ClCompile Include="MainMenu.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="State.cpp" />
+    <ClCompile Include="src\Ball.cpp" />
+    <ClCompile Include="src\Brick.cpp" />
+    <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\GameStates.cpp" />
+    <ClCompile Include="src\GameUIBox.cpp" />
+    <ClCompile Include="src\Jumpanoid.cpp" />
+    <ClCompile Include="src\MainMenu.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\State.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Ball.h" />
-    <ClInclude Include="Brick.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="GameStates.h" />
-    <ClInclude Include="GameUIBox.h" />
-    <ClInclude Include="MainMenu.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="State.h" />
+    <ClInclude Include="include\Ball.h" />
+    <ClInclude Include="include\Brick.h" />
+    <ClInclude Include="include\Game.h" />
+    <ClInclude Include="include\GameStates.h" />
+    <ClInclude Include="include\GameUIBox.h" />
+    <ClInclude Include="include\MainMenu.h" />
+    <ClInclude Include="include\Player.h" />
+    <ClInclude Include="include\State.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
