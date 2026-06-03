@@ -1,0 +1,55 @@
+# Visual Studio
+.vs/
+.buildtmp/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.VC.opendb
+
+# Build output
+x64/
+release/
+Debug/
+Release/
+*/x64/
+*/Debug/
+*/Release/
+
+# Local project notes and exports
+todo.md
+*.zip
+*.7z
+*.rar
+
+# C++ compilation artifacts
+external/lib/Debug/
+external/lib/*-s.lib
+external/lib/*-s-d.lib
+external/lib/sfml-main*.lib
+external/lib/flac.lib
+external/lib/freetype.lib
+external/lib/ogg.lib
+external/lib/vorbis*.lib
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.lastbuildstate
+*.FileListAbsolute.txt
+*.log
+*.recipe
+
+# Generated binaries
+*.exe
+sfml-*-d-2.dll
+
+# Editor and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
